@@ -1,3 +1,35 @@
-h1 {
-    color: red;
- }
+body {
+    width: 100%;
+    height: 600px;
+}
+
+
+nav {
+    padding: 0;
+    margin: 0;
+    display: flexbox;
+    text-align:center;
+    background-image: url();
+    display: block;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    background-color: white;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 30px;
+    text-decoration: none;
+    color: brown;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 20px;
+    
+}
+
+.logo {
+    display: block;
+}
